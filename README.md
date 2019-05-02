@@ -4,7 +4,7 @@ Solr2Solr
 Solr 데이터를 다른 Solr로 복사합니다. 
 
 원본 Solr 에서 json 형식으로 데이터를 가져와서(wt=json) 다른 Solr 에 POST(/update/json)를 합니다.
-(Deep Paing)[http://yonik.com/solr/paging-and-deep-paging/] 방식으로 데이터를 가져오며 원본 Solr 에서 제공하는 필드만 복사됩니다.
+[Deep Paing](http://yonik.com/solr/paging-and-deep-paging/) 방식으로 데이터를 가져오며 원본 Solr 에서 제공하는 필드만 복사됩니다.
 
 ```sh
 $ java -jar target/solr2solr-jar-with-dependencies.jar
